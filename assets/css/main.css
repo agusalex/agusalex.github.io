@@ -1029,15 +1029,14 @@
 			height: 100%;
 		}
 
-/* README.MD */
-
 .projects {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: 	wrap;
+	align-content: flex-start;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	min-height: 100vh;
+	text-align: center;	
+	min-height: 0 !important;
 	}
 	
 .projects a {
@@ -1055,15 +1054,42 @@ height: auto; /* Maintain the aspect ratio of the images */
 	
 }
 .text-p{
-
 	font-size: larger;
 }
-.projects {
-	display: flex;
-	flex-wrap: 	wrap;
-	align-content: flex-start;
-	justify-content: center;
-	align-items: center;
-	text-align: center;	
-	min-height: 0 !important;
-}
+
+.more-about-me {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .more-about-me a {
+	display: inline-block;
+	position: relative;
+	padding: 10px 20px;
+	color: #333;
+	text-decoration: none;
+  }
+  
+  .more-about-me a span {
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+  }
+  
+  .more-about-me a i {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	font-size: 20px;
+  }
+  
+  .more-about-me a i:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f107"; /* Replace with the code for your arrow icon */
+  }
+
+  .profile {
+
+	padding-top:500px;
+  }
