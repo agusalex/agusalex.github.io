@@ -1028,3 +1028,33 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+/* README.MD */
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+	}
+	
+.projects a {
+padding: 5px; /* Add some padding around each image container */
+box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+	
+.projects img {
+max-width: 100%; /* Ensure that the images do not exceed their container */
+height: auto; /* Maintain the aspect ratio of the images */
+}
+.tile {
+	max-width: 100%; /* Ensure that the images do not exceed their container */
+	height: auto; /* Maintain the aspect ratio of the images */
+	
+}
+.text-p{
+
+	font-size: larger;
+}
